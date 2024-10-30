@@ -10,6 +10,7 @@
 - [Results](#results)
 - [Recommendations](#recommendations)
 - [Limitation](#limitation)
+- [PowerBI Reports](#powerbi-reports)
 ### Project Overview
 
 A manager at the bank is disturbed with more and more customers leaving their credit card services. They want to analyze the data to find out the reason behind customer attrition and predict customers who are going to get attrited so they can proactively go to the customers to provide them better services and hence stop them from leaving. 
@@ -64,10 +65,18 @@ Based on our analysis, the following actions are recommended:
 - Fee reduction or waiver: Review and adjust fees
 
 ### Limitation
-We have only 16.1% of customers who have attrited. Thus, it is a bit difficult to train our model to predict attricted customers.
+We have only 16.1% of customers who have attrited. Thus, it was a bit difficult to train our model to predict attricted customers.
 
 The attached PowerBI report shows the customers who are at the risk of chunning and the level of risk.
 
+### PowerBI Reports
 
 
+[Snapshot of PowerBI visuals](BankChunners_page1)
+
+![BankChurners_page1](https://github.com/user-attachments/assets/908d0346-b554-47ac-8da7-eabab6db5e55)
+
+
+
+![BankChurners_page2](https://github.com/user-attachments/assets/ff25c349-e0e8-4a12-9b76-5221a8717357)
 
