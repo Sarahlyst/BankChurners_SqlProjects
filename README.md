@@ -4,10 +4,10 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools Used](#tools-used)
-- [Data Cleaning/Preparation](#data-cleaning/preparation)
+- [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
-- [Results/Findings](#results/findings)
+- [Results](#results)
 - [Recommendations](#recommendations)
 - [Limitation](#limitation)
 ### Project Overview
@@ -25,7 +25,7 @@ Datasets used: I got the dataset from "[kaggle/Input/credit-card-customers/BankC
 - MySQL - Data Analysis
 - PowerBI - Creating Reports
 
-### Data Cleaning/Preparation
+### Data Cleaning
 The dataset was first opened in Excel where the last two columns were deleted before saving into the already created database 'Churners' in MySQL
 
 ### Exploratory Data Analysis
@@ -46,7 +46,7 @@ total_trans_ct<=69.5, 'Medium Risk', 'low Risk')) as customers_attrition_risk
  where attrition_flag = 'existing customer';
 ```
 
-### Results/Findings
+### Results
 From our analysis, it was found out that these four datasets greatly influenced customer atrrition:
 
 - Total transaction Count (last 12 months)
